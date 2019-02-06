@@ -1,0 +1,104 @@
+PODS:
+  - MaterialComponents/AnimationTiming (68.0.0)
+  - MaterialComponents/BottomAppBar (68.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+  - MaterialComponents/BottomSheet (68.0.0):
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/ButtonBar (68.0.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+  - MaterialComponents/Buttons (68.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ButtonThemer (68.0.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+  - "MaterialComponents/Buttons+ColorThemer (68.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+ShapeThemer (68.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Buttons+TypographyThemer (68.0.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Ink (68.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationBar (68.0.0):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Palettes (68.0.0)
+  - MaterialComponents/private/Application (68.0.0)
+  - MaterialComponents/private/KeyboardWatcher (68.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (68.0.0)
+  - MaterialComponents/private/ShapeLibrary (68.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/private/Shapes (68.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/schemes/Color (68.0.0)
+  - MaterialComponents/schemes/Shape (68.0.0):
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/schemes/Typography (68.0.0)
+  - MaterialComponents/ShadowElevations (68.0.0)
+  - MaterialComponents/ShadowLayer (68.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/TextFields (68.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (68.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+  - SearchTextField (1.2.2)
+
+DEPENDENCIES:
+  - MaterialComponents/AnimationTiming
+  - MaterialComponents/BottomAppBar
+  - MaterialComponents/BottomSheet
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+ButtonThemer"
+  - MaterialComponents/TextFields
+  - SearchTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - SearchTextField
+
+SPEC CHECKSUMS:
+  MaterialComponents: 2f9ee23abfc633502026aa34e0bdc9a489e1d00d
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  SearchTextField: a0992739d4b05dcbb40fb3a5cc6526bd991bdd23
+
+PODFILE CHECKSUM: 56442c74552a404a8d36cc6043f7c17ac2237ee4
+
+COCOAPODS: 1.5.3

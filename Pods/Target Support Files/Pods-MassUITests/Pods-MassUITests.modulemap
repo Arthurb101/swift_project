@@ -1,0 +1,6 @@
+framework module Pods_MassUITests {
+  umbrella header "Pods-MassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
